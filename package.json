@@ -1,12 +1,16 @@
 {
-  "name": "nored-discord-webhooks",
+  "name": "@4is-nored/discord-webhooks",
   "displayName": "NoRED Discord Webhooks",
   "version": "0.0.0",
   "description": "A custom Node to be used by Node-RED to send messages via Discord Webhooks.",
   "main": "dist/index.js",
+  "icon": "src/icons/webhook-128x128.png",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc"
+  },
+  "node-red": {
+    "lower-case": "dist/lower-case.js"
   },
   "keywords": [
     "Node-RED",
