@@ -10,14 +10,11 @@
     "build": "tsc"
   },
   "node-red": {
-    "lower-case": "dist/lower-case.js"
+    "nodes": {
+      "lower-case": "dist/lower-case.js",
+      "webhook": "dist/webhook.js"
+    }
   },
-  "keywords": [
-    "Node-RED",
-    "Discord",
-    "Webhooks",
-    "Node-RED-Nodes"
-  ],
   "author": {
     "name": "4lch4",
     "email": "hey@4lch4.email",
